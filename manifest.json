@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "YT Speed Demon",
+  "version": "1.0",
+  "description": "Toggles speed of a Youtube video.",
+  "icons": {
+    "48": "icons/yt_logo.ico"
+  },
+  "browser_action": {
+    "default_icon": {
+      "48": "icons/yt_logo.ico"
+    }
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": ["activeTab"]
+}
